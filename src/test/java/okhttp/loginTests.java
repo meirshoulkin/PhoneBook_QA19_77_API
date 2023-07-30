@@ -18,8 +18,8 @@ public class loginTests {
             public void loginPositive() throws IOException {
 
         AuthRequestDTO requestDTO = AuthRequestDTO.builder()
-                .username("abc@def.com")
-                .password("$Abcdef12345")
+                .username("favnbolt@gmail.com")
+                .password("dom1$A55")
                 .build();
 
         Gson gson = new Gson();
@@ -48,5 +48,5 @@ public class loginTests {
 
     }
     //token = eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoiYWJjQGRlZi5jb20iLCJpc3MiOiJSZWd1bGFpdCIsImV4cCI6MTY5MDgyMDE3OSwiaWF0IjoxNjkwMjIwMTc5fQ.KFz1TZTbB0KHlzVmNO1j38brzfu3Ve9bCyOc-cjimJ8
-
+//token1 = eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoiZmF2bmJvbHRAZ21haWwuY29tIiwiaXNzIjoiUmVndWxhaXQiLCJleHAiOjE2OTEyNjc5NjcsImlhdCI6MTY5MDY2Nzk2N30.FavcVZjsY7qm_gF8NoeI64AfCmUJOHL6hTjuqJXT5_o
 }
